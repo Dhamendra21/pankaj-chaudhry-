@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.text{
+  width: 500px;
+}
+.link{
+  color: gray;
+}
+.link:hover{
+  color: black;
+  background: lightgray;
+}
+.profile{
+  /* margin-top: 20px; */
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.media{
+  color: gray;
+  text-decoration: none;
+}
+.about{
+  width: 550px;
+  margin: auto;
+}
