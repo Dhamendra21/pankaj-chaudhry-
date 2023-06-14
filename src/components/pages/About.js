@@ -1,7 +1,10 @@
 
+import Nav from "./Nav"
+
 function About(){
     return(
-        <div className="about my-5" >
+        <div className="about d-flex align-items-center my-5 " >
+            <Nav/>
             <div>
             <h1>About me</h1>
             <p className="my-4" >
@@ -18,7 +21,7 @@ I am a diligent student  in school, exploring the <b>MERN stack</b> and creating
             <p>
             I love building for the web. From something as simple as a single HTML file – all the way to large React.js applications.
             </p>
-            </div>
+           
             <div className="d-flex justify-content-between" style={{width:"300px"}} >
             <div className="border p-2 rounded inline" >
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="gray" class="bi bi-github" viewBox="0 0 16 16">
@@ -37,6 +40,9 @@ I am a diligent student  in school, exploring the <b>MERN stack</b> and creating
          </svg>
          </div>
             </div>
+           
+            </div>
+            
         </div>
     )
 }

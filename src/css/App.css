@@ -2,15 +2,15 @@
   text-align: center;
 }
 
-.text{
-  width: 500px;
-}
+
 .link{
   color: gray;
+  padding: 10px;
 }
 .link:hover{
   color: black;
   background: lightgray;
+
 }
 .profile{
   /* margin-top: 20px; */
@@ -23,7 +23,44 @@
   color: gray;
   text-decoration: none;
 }
-.about{
-  width: 550px;
+
+@media (min-width:786px) {
+  .text{
+    width: 500px;
+  }
+  .navigation li{
+    list-style: none;
+    
+  }
+  .about{
+    width: 700px;
+    margin: auto;
+  }
+}
+@media (max-width:786px) {
+.navigation{
+  display: flex;
+  align-items: center;
+  margin-left: -40px;
+}
+.navigation li{
+  list-style: none;
+  
+
+}
+.navigation h1{
+  margin: 10px;
+}
+.text{
+  width: 400px;
   margin: auto;
+  margin-left: 10px;
+}
+.about{
+  width:350px ;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  
+}
 }

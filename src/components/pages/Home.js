@@ -2,10 +2,10 @@ import Nav from "./Nav"
 import Img from "../asset/profile.jpg"
 function Home (){
     return(
-        <div className="d-flex justify-content-center m-5 align-items-center " >
+        <div className="d-flex justify-content-center m-5 align-items-center flex-wrap " >
          <Nav/>
-         <div className="text text-start " >
-        <h1>Dhamendra_sahu</h1>
+         <div className="text-start text " >
+        <h1>Dhamendra sahu</h1>
         <p>Hey, I'm Dhamendra_sahu. 
        I am a proficient <b>MERN stack developer</b>, crafting powerful web applications with <b>MongoDB, Express.js, React, and Node.js.</b> </p>
         <div className="d-flex align-items-center ">
@@ -29,9 +29,12 @@ function Home (){
             </div>
         </div>
         <div>
+            <p className="fw-normal" >
         As a skilled MERN stack developer, I bring creativity, expertise, and a passion for building dynamic web applications. With a strong foundation in MongoDB, Express.js, React, and Node.js, I strive to deliver innovative solutions that enhance user experiences. Let my dedication and technical prowess take your projects to new heights.
+
+            </p>
         </div>
-        <div className="d-flex my-5 " >
+        <div className="d-flex my-5 flex-wrap " >
          <div>
          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
              <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
