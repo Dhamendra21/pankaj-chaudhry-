@@ -1,16 +1,16 @@
 import Nav from "./Nav"
 import instagram from '../asset/icons8-instagram-48.png'
 import facebook from '../asset/icons8-facebook-48.png'
-// import Img from "../asset/profile.jpg"
+import Img from "../asset/profile.jpg"
 function Home (){
     return(
-        <div className="d-flex justify-content-center m-5 align-items-center flex-wrap " >
+        <div className="d-flex justify-content-center mt-5 me-1 align-items-center flex-wrap " >
          <Nav/>
          <div className="text-start text " >
         <h1>पंकज चौधरी</h1>
         <p>पंकज चौधरी, प्रदेश कार्यसमिति सदस्य, भारतीय जनता पार्टी युवा मोर्चा छत्तीसगढ़</p>
-        <div className="d-flex align-items-center ">
-            {/* <img src={Img} className="profile" /> */}
+        <div className="d-flex align-items-center flex-wrap image ">
+             <div> <img src={Img} className="profile" /></div> 
             <div >
              <div className="my-3" >
              <img src={instagram} class="m-0 icon" alt=""/><a className="media m-3" target="_blank" href="https://instagram.com/mediapankaj09?igshid=MjEwN2IyYWYwYw==" >इंस्टाग्राम पर पोस्ट देखें </a>
@@ -28,19 +28,19 @@ function Home (){
         </div>
         <div>
             <p className="fw-normal" >
-            सामान्य से गांव से निकलकर महाविद्यालय में पत्रकारिता की पढ़ाई के साथ अंकिल भारतीय विद्यार्थी परिषद के सहायक से छात्रों के अधिकार संघर्षरत रहें|
+            सामान्य से गांव से निकलकर महाविद्यालय में पत्रकारिता की पढ़ाई के साथ छात्र राजनीती अखिल भारतीय विद्यार्थी परिषद के सहायक से छात्रों के अधिकार संघर्षरत रहें |
             जनसेवा को एकमात्र लक्ष्य मानकर राजनीती में भारतीय जनता पार्टी के सदस्य बनकर आमजन के सेवा में सदैव तत्पर |
 
 
             </p>
         </div>
         <div className="d-flex my-5 flex-wrap " >
-         <div>
+         <div className="border rounded p-1 me-2">
          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="sky-blue" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
              <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
          </svg><a className="media m-2" href="https://twitter.com/pankajc62780788/status/1675699566962958336?s=46&t=OXoFQjyDdakJFxo8P2eBHg" target="_blank" > ट्विटर पर फ़ॉलो करें </a>
          </div>
-         <div>
+         <div className="border rounded p-1">
          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="sky-blue" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
              <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
          </svg><a className="media m-3" target="_blank" href="https://instagram.com/mediapankaj09?igshid=MjEwN2IyYWYwYw==" >

@@ -18,6 +18,7 @@
   height: 100px;
   object-fit: cover;
   border-radius: 50%;
+  margin-right: 20px;
 }
 .media{
   color: gray;
@@ -36,6 +37,10 @@
     width: 700px;
     margin: auto;
   }
+  /* .nav-cont{
+    width: 100px;
+    height: 400px;
+  } */
 }
 @media (max-width:786px) {
 .navigation{
@@ -63,6 +68,10 @@
   margin-left: 20px;
   
 }
+/* .image{
+  display: flex;
+  flex-wrap: wrap;
+} */
 }
 .icon{
   width: 32px;

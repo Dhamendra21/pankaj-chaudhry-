@@ -3,7 +3,8 @@ import { Link } from "react-router-dom"
 function Nav (){
     return(
 
-       <nav className="m-5 " >
+       <div className="nav-cont" >
+        <nav className="m-5 " >
        <ul class="nav flex-md-column  " className="navigation" >
         <h1 className="text-center">P</h1>
   <li class="nav-item m-2">
@@ -20,6 +21,7 @@ function Nav (){
   </li>
 </ul>
        </nav>
+       </div>
     
      
     )
